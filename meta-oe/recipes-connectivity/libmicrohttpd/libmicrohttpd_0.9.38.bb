@@ -4,9 +4,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=9331186f4f80db7da0e724bdd6554ee5"
 
 DEPENDS = "libgcrypt curl"
 
-SRC_URI = "ftp://ftp.nluug.nl/pub/gnu/libmicrohttpd//libmicrohttpd-${PV}.tar.gz"
-SRC_URI[md5sum] = "61698da6aa04744ea076c327f66fc05a"
-SRC_URI[sha256sum] = "0cb09e26678d1531a4fd40a748abff5142bfdad3ae11cfe3bb7ad7317a99e371"
+SRC_URI = "ftp://ftp.nluug.nl/pub/gnu/libmicrohttpd/libmicrohttpd-${PV}.tar.gz"
+SRC_URI[md5sum] = "b72efbfe7f290846015d460aea7091fe"
+SRC_URI[sha256sum] = "8df2b4dd863c98799a4775a530d905363fbc02fec850af9094da890b28b9e721"
 
 inherit autotools lib_package
 
